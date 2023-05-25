@@ -1,0 +1,135 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-image: linear-gradient(45deg, #008000, yellow);
+    color: #333333;
+    display: flex;
+
+    padding: 25px;
+}
+
+main .titulo-principal {
+    background-image: linear-gradient(45deg, black, #90ee90);
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: #90ee90;
+    padding: 20px;
+    border-style: double;
+    border-color: aliceblue;
+    border-width: 10px;
+    border-radius: 20px;
+    margin: 50px;
+    margin-top: 50px;
+
+}
+
+main .titulo-principal:hover {
+    transform: scale(1.09);
+    background-image: linear-gradient(45deg, #006400, black);
+    border-width: 20px;
+}
+
+main .nome-do-pokemon {
+    color: #006400;
+    margin: 200px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: #006400;
+}
+
+main .imagem-bulba {
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
+    filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
+}
+
+main .imagem-bulba:hover {
+    transform: scale(1.09);
+}
+
+main .aparencia {
+    background-image: linear-gradient(45deg, black, #90ee90);
+    color: white;
+    border-style: double;
+    border-color: aliceblue;
+    border-width: 5px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+main .aparencia:hover {
+    transform: scale(1.09);
+    background-image: linear-gradient(45deg, #006400, black);
+    border-width: 10px;
+    
+}
+
+main .desc-aparencia {
+    background-color: #90ee90;
+    margin-top: 0px;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+main .desc-aparencia:hover {
+    background-color: #006400;
+    color: white;
+    transform: scale(1.09);
+}
+
+main .nome-ataque {
+    color: #006400;
+    margin: 50px;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: #006400;
+}
+
+main .imagem-ataque {
+    width: 500px;
+    border-radius: 15%;
+    border-style: inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+main .imagem-ataque:hover {
+    transform: scale(1.09);
+    border-style: solid;
+    
+
+}
+
+main .desc-ataques {
+    background-color: #90ee90;
+    color: black;
+    margin: 25px;
+    padding: 20px;
+    top: 50px;
+    border-radius: 10px;
+    gap: 30px;
+
+}
+
+main .desc-ataques:hover {
+    transform: scale(1.09);
+    background-color: #006400;
+    color: white;
+    border-width: 10px;
+}
